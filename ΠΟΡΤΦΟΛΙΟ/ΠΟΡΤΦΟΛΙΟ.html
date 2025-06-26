@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Argyris Konstantinidis | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Impact&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Impact', sans-serif;
+      background-color: #121212;
+      color: #fff;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      color: #ffc234;
+      font-size: 2.5rem;
+      cursor: pointer;
+    }
+    nav {
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: #ffc234;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #ffc234;
+      margin-top: 3rem;
+    }
+    .project-thumb {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2rem;
+    }
+    .thumb-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4px;
+      margin-bottom: 0.5rem;
+    }
+    .thumb-gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      border-radius: 4px;
+    }
+    .thumb-img {
+      width: 100%;
+      height: 200px;
+      background-color: #333;
+      margin-bottom: 0.5rem;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    a {
+      color: #ffc234;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header onclick="window.location.href='index.html'">
+    ARGYRIS KONSTANTINIDIS – VIDEOGRAPHY PORTFOLIO
+  </header>
+  <nav>
+    <a href="music-video-clips.html">🎵 MUSIC VIDEO CLIPS</a>
+    <a href="social-media.html">📱 SOCIAL MEDIA</a>
+    <a href="short-films.html">🎬 SHORT FILMS</a>
+    <a href="documentaries.html">🎥 DOCUMENTARIES</a>
+  </nav>
+
+  <section id="music-videos">
+    <h2>🎵 MUSIC VIDEO CLIPS</h2>
+    <div class="project-thumb">
+      <a href="mitsos-fdl-epoxi.html" class="project-link">
+        <div class="thumb-gallery">
+          <img src="images/mitsos1.jpg" alt="Mitsos FDL shot 1">
+          <img src="images/mitsos2.jpg" alt="Mitsos FDL shot 2">
+          <img src="images/mitsos3.jpg" alt="Mitsos FDL shot 3">
+        </div>
+        <strong>Mitsos FDL - Εποχή Του Υδροχόου</strong>
+      </a>
+      <div class="meta">Client: Mitsos FDL | Role: Shot by Argyris Konstantinidis</div>
+    </div>
+
+    <div class="project-thumb">
+      <a href="rafu-to-paidi.html" class="project-link">
+        <div class="thumb-img"></div>
+        <strong>RAFU – ΤΟ ΠΑΙΔΙ</strong>
+      </a>
+      <div class="meta">Client: RAFU | Role: Shot & Edited by Argyris Konstantinidis</div>
+    </div>
+    <div class="project-thumb">
+      <a href="sepe-schaden.html" class="project-link">
+        <div class="thumb-img"></div>
+        <strong>SEPE - SCHADEN</strong>
+      </a>
+      <div class="meta">Client: SEPE | Role: Filmed & Edited by Argyris Konstantinidis</div>
+    </div>
+  </section>
+
+  <!-- (το υπόλοιπο παραμένει ίδιο) -->
+  <!-- SOCIAL MEDIA, SHORT FILMS, DOCUMENTARIES, CONTACT, FOOTER -->
+
+</body>
+</html>

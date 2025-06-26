@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAFU – ΤΟ ΠΑΙΔΙ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Impact&display=swap" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Impact', sans-serif;
+      background-color: #121212;
+      color: #fff;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      color: #ffc234;
+      font-size: 2.5rem;
+      cursor: pointer;
+    }
+    header a {
+      color: #ffc234;
+      text-decoration: none;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    .video-wrapper {
+      width: 100%;
+      max-width: 960px;
+      aspect-ratio: 16 / 9;
+      margin-bottom: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .video-link {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+    .video-link img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: opacity 0.3s ease;
+    }
+    .overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0,0,0,0);
+      color: #ffc234;
+      font-family: 'Impact', sans-serif;
+      font-size: 2rem;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: background-color 0.3s ease, opacity 0.3s ease;
+      pointer-events: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .video-link:hover .overlay {
+      background-color: rgba(0,0,0,0.85);
+      opacity: 1;
+    }
+    .video-link:hover img {
+      opacity: 0.3;
+    }
+    .info {
+      max-width: 960px;
+      width: 100%;
+      color: white;
+      text-align: left;
+      margin-left: -15rem; /* Αν θες μπορείς να το αφαιρέσεις */
+    }
+    .title {
+      font-size: 2rem;
+      color: #ffc234;
+      margin-bottom: 0.5rem;
+    }
+    .credits {
+      font-size: 1rem;
+      line-height: 1;
+      color: #ddd;
+      white-space: pre-line;
+      letter-spacing: 1.2px;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">ARGYRIS KONSTANTINIDIS – VIDEOGRAPHY PORTFOLIO</a>
+  </header>
+
+  <div class="container">
+    <div class="video-wrapper">
+      <a href="https://www.youtube.com/watch?v=-_Po13sQo6s" target="_blank" rel="noopener noreferrer" class="video-link">
+        <img src="https://img.youtube.com/vi/-_Po13sQo6s/maxresdefault.jpg" alt="RAFU – ΤΟ ΠΑΙΔΙ Official Music Video" />
+        <div class="overlay">WATCH IT ON YOUTUBE</div>
+      </a>
+    </div>
+
+    <div class="info">
+      <div class="title">RAFU – ΤΟ ΠΑΙΔΙ (Official Music Video)</div>
+      <div class="credits">
+        Στίχοι: RAFU<br><br>
+        Παραγωγή: THANASIMOS<br><br>
+        Rec, Mix &amp; Mastering: Thanasimos @ Hotbox Studio<br><br>
+        Filmed &amp; Edited by: Argyris Konstantinidis<br><br>
+        Directed by: Alexandros Sepentzis
+      </div>
+    </div>
+  </div>
+</body>
+</html>
